@@ -4,8 +4,7 @@ public class problem1 {
         //Create an array that holds 20 positions, give each index a
         //random value between 1-6, then use a for loop to count
         //how many 1's were randomly generated in  the array
-
-
+        
         //hold 20 integers, define the variable (count) to count the number of 1's randomly generated
         int[] integers = new int[21];
         int count = 0;
@@ -21,10 +20,10 @@ public class problem1 {
                     if (rand==1) {
                         count++;
                     }
-                //print positions + values
-                System.out.println("Value: " + rand +  "\t(Pos: " + i + ")");
+
+                System.out.println("Value: " + rand + "\t(" + i + ")");
         }
-        //print number of times number 1 was randomly generated
+
         System.out.println("\nNumber of times the value 1 was randomly generated: " + count);
 
 

@@ -23,10 +23,9 @@ public class problem2 {
             total = total + rand;
             average = total/i;
 
-
-            System.out.println("#" + i + "\tValue: " + rand);
-
+            System.out.println("Value: " + rand + "\t(" + i + ")");
         }
+
         System.out.println("------------------");
         System.out.println("Average value: " + average);
     }
