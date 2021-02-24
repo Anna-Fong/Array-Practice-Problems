@@ -11,16 +11,16 @@ public class problem2 {
 
         System.out.println("Index: \tValue: \n------------------");
         for(int i = 1; i < 11; i++) {
+            int rand = (int) ((Math.random() * 100) + 1);
             if (i == 11) {
                 break; }
-
-            int rand = (int) ((Math.random() * 100) + 1);
 
             total = total + rand;
             average = total/i;
 
             System.out.println(i + "\t\t" + rand);
         }
+
 
         System.out.println("------------------");
         System.out.println("Average value: " + average);

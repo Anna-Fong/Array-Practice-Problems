@@ -1,7 +1,7 @@
-public class problem3 {
+public class problem4 {
     public static void main(String[] args) {
 
-        //Take the last array you made and swap 2 different index positions
+        // Take the last array you made and completely reverse the order of the array
 
         int[] array = new int[11];
         double total = 0;
@@ -9,9 +9,9 @@ public class problem3 {
 
         System.out.println("Index: \tValue: \n------------------");
 
-        for (int i = 1; i < 11; i++) {
+        for (int i = 10; i > 0; i--) {
             array[i] = (int) ((Math.random() * 100) + 1);
-            if (i == 11) {
+            if (i == 0) {
                 break;
             }
 
