@@ -11,7 +11,7 @@ public class problem1 {
         System.out.println("Index: \tValue: \n------------------");
 
             for(int i = 1; i < 21; i++) {
-                if(i == 21) {
+                if(array[i] == 21) {
                    break; }
 
                 int rand = (int)((Math.random() * 6) + 1);
@@ -20,6 +20,7 @@ public class problem1 {
                     }
                 System.out.println(i + "\t\t" + rand);
             }
+
         System.out.printf("------------------");
         System.out.println("\nNumber of times the value 1 was randomly generated: " + count);
 
