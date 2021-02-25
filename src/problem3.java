@@ -24,15 +24,14 @@ public class problem3 {
             if(i == 7) {
                 array[i] = (int) ((Math.random() * 100) + 1);
                 System.out.println("3" + "\t\t" + array[i]);
-                i++;
             } else {
                 array[i] = (int) ((Math.random() * 100) + 1);
+                System.out.println(i + "\t\t" + array[i]);
             }
 
             if (i == 11) {
                     break;
             }
-            System.out.println(i + "\t\t" + array[i]);
 
             total = total + array[i];
             average = total / 10;

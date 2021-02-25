@@ -20,13 +20,9 @@ public class problem2 {
 
             System.out.println(i + "\t\t" + rand);
         }
-
-
         System.out.println("------------------");
         System.out.println("Average value: " + average);
 
 
-
     }
-
 }

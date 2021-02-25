@@ -8,6 +8,7 @@ public class problem1 {
 
         int[] array = new int[21];
         int count = 0;
+        System.out.println("Index: \tValue: \n------------------");
 
             for(int i = 1; i < 21; i++) {
                 if(i == 21) {
@@ -17,9 +18,8 @@ public class problem1 {
                     if (rand==1) {
                         count++;
                     }
-                System.out.println("Value: " + rand);
+                System.out.println(i + "\t\t" + rand);
             }
-
         System.out.printf("------------------");
         System.out.println("\nNumber of times the value 1 was randomly generated: " + count);
 

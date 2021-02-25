@@ -20,11 +20,9 @@ public class problem4 {
             total = total + array[i];
             average = total / 10;
         }
-
         System.out.println("------------------");
         System.out.println("Average value: " + average);
 
 
     }
-
 }
