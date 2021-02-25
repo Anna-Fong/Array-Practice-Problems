@@ -18,7 +18,7 @@ public class problem4 {
             System.out.println(i + "\t\t" + array[i]);
 
             total = total + array[i];
-            average = total / i;
+            average = total / 10;
         }
 
         System.out.println("------------------");

@@ -16,7 +16,7 @@ public class problem2 {
                 break; }
 
             total = total + rand;
-            average = total/i;
+            average = total/10;
 
             System.out.println(i + "\t\t" + rand);
         }
